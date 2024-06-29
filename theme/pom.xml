@@ -249,6 +249,12 @@
       <artifactId>gxt-themebuilder</artifactId>
       <version>${gxt.version}</version>
     </dependency>
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>2.4.5</version>
+    </dependency>
   </dependencies>
+  
 
 </project>
