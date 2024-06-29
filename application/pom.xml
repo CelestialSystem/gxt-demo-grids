@@ -110,7 +110,7 @@
   </build>
 
   <!-- GWT (BOM or Bill of Materials) -->
-  <dependencyManagement>
+  <!-- <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>com.google.gwt</groupId>
@@ -120,7 +120,7 @@
         <scope>import</scope>
       </dependency>
     </dependencies>
-  </dependencyManagement>
+  </dependencyManagement> -->
 
   <dependencies>
     <!-- GXT -->
