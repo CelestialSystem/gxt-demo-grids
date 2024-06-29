@@ -6,7 +6,7 @@
   <parent>
     <groupId>com.sencha.gxt.demo</groupId>
     <artifactId>gxt-demo-grids</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
   </parent>
 
   <artifactId>gxt-demo-grids-application</artifactId>
