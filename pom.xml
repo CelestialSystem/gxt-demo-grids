@@ -5,7 +5,7 @@
 
   <groupId>com.sencha.gxt.demo</groupId>
   <artifactId>gxt-demo-grids</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>pom</packaging>
   <name>gxt-demo-grids</name>
   <description>GXT project with custom theme setup and Activities and places.</description>
@@ -13,9 +13,8 @@
   <properties>
     <!-- GXT -->
     <gxt.version>4.2.0</gxt.version>
-
     <!-- GWT -->
-     <java.version>11</java.version>
+    <java.version>11</java.version>
     <gwt.version>2.11.0</gwt.version>
     <gwt.plugin.version>1.1.0</gwt.plugin.version>
     <phantomjs.version>2.1.1</phantomjs.version>
