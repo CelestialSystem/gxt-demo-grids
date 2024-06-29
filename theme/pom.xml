@@ -104,13 +104,13 @@
             </configuration>
           </execution>
         </executions>
-        <dependencies>
+        <!-- <dependencies>
           <dependency>
             <groupId>com.sencha.gxt</groupId>
             <artifactId>gxt-themebuilder</artifactId>
             <version>${gxt.version}</version>
           </dependency>
-        </dependencies>
+        </dependencies> -->
       </plugin>
 
       <!-- Add teh target/theme-gen to be included as a sourcepath -->
