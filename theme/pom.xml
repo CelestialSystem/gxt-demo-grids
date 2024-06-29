@@ -104,13 +104,21 @@
             </configuration>
           </execution>
         </executions>
-        <!-- <dependencies>
+        <dependencies>
           <dependency>
             <groupId>com.sencha.gxt</groupId>
             <artifactId>gxt-themebuilder</artifactId>
             <version>${gxt.version}</version>
           </dependency>
-        </dependencies> -->
+        </dependencies>
+        <repositories>
+        <!--Your custom maven repo-->
+            <repository>
+                <id>gxt-themebuilder</id>
+                <name>My custom maven repo</name>
+                <url>https://sencha.myget.org/F/maven/auth/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/com.sencha.gxt/gxt-themebuilder/4.2.0/gxt-themebuilder-4.2.0.jar</url>
+            </repository>
+        </repositories>
       </plugin>
 
       <!-- Add teh target/theme-gen to be included as a sourcepath -->
@@ -243,12 +251,20 @@
     </pluginManagement>
   </build>
 
-  <!-- <dependencies>
+  <dependencies>
     <dependency>
       <groupId>com.sencha.gxt</groupId>
       <artifactId>gxt-themebuilder</artifactId>
       <version>${gxt.version}</version>
     </dependency>
-  </dependencies> -->
+  </dependencies>
+  <repositories>
+  <!--Your custom maven repo-->
+      <repository>
+          <id>gxt-themebuilder</id>
+          <name>My custom maven repo</name>
+          <url>https://sencha.myget.org/F/maven/auth/b40e1981-b259-4971-8e0b-44a26f7f77d1/maven/com.sencha.gxt/gxt-themebuilder/4.2.0/gxt-themebuilder-4.2.0.jar</url>
+      </repository>
+  </repositories>
 
 </project>
