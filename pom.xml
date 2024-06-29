@@ -15,8 +15,11 @@
     <gxt.version>4.2.0</gxt.version>
 
     <!-- GWT -->
-    <gwt.version>4.2.0</gwt.version>
-    <gwt.maven.version>4.2.0</gwt.maven.version>
+     <java.version>11</java.version>
+    <gwt.version>2.11.0</gwt.version>
+    <gwt.plugin.version>1.1.0</gwt.plugin.version>
+    <phantomjs.version>2.1.1</phantomjs.version>
+    <gwt.maven.version>3.3.9</gwt.maven.version>
     <gwt.style>OBF</gwt.style>
 
     <!-- Maven -->
