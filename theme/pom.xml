@@ -53,7 +53,7 @@
         </configuration>
       </plugin>
 
-      <!-- <plugin>
+      <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
@@ -116,10 +116,10 @@
             <version>2.4.6</version>
           </dependency> -->
         </dependencies>
-      </plugin> -->
+      </plugin>
 
       <!-- Add teh target/theme-gen to be included as a sourcepath -->
-      <!-- <plugin>
+      <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>build-helper-maven-plugin</artifactId>
         <version>1.9.1</version>
@@ -154,7 +154,7 @@
             </configuration>
           </execution>
         </executions>
-      </plugin> -->
+      </plugin>
     </plugins>
 
     <pluginManagement>
@@ -187,14 +187,14 @@
 
                 <!-- Theme build execution controls -->
                 <pluginExecution>
-                  <!-- <pluginExecutionFilter>
+                  <pluginExecutionFilter>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>exec-maven-plugin</artifactId>
                     <versionRange>[1.0.0,)</versionRange>
                     <goals>
                       <goal>java</goal>
                     </goals>
-                  </pluginExecutionFilter> -->
+                  </pluginExecutionFilter>
                   <action>
                     <!-- Remove ignore and add an execute to turn on m2e execution -->
                     <ignore />
@@ -208,7 +208,7 @@
                   </action>
                 </pluginExecution>
                 <pluginExecution>
-                  <!-- <pluginExecutionFilter>
+                  <pluginExecutionFilter>
                     <groupId>org.codehaus.mojo</groupId>
                     <artifactId>build-helper-maven-plugin</artifactId>
                     <versionRange>[1.9.1,)</versionRange>
@@ -216,7 +216,7 @@
                       <goal>add-source</goal>
                       <goal>add-resource</goal>
                     </goals>
-                  </pluginExecutionFilter> -->
+                  </pluginExecutionFilter>
                   <action>
                     <execute>
                       <!-- run on maven update -->
