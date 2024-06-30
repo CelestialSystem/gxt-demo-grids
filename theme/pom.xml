@@ -113,7 +113,7 @@
           <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy</artifactId>
-            <version>3.0.21</version>
+            <version>3.0.8</version>
           </dependency>
         </dependencies>
       </plugin>
@@ -257,7 +257,7 @@
     <dependency>
       <groupId>org.codehaus.groovy</groupId>
       <artifactId>groovy</artifactId>
-      <version>3.0.21</version>
+      <version>3.0.8</version>
     </dependency>
   </dependencies>
   
