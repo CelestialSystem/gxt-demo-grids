@@ -58,9 +58,9 @@
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.4.0</version>
         <executions>
-           If you see an error in eclipse on this next line "An exception occurred while executing the Java class. null", 
+          <!-- If you see an error in eclipse on this next line "An exception occurred while executing the Java class. null", 
             this indicates that there was a problem generating Neptune from the config file. Run from the command line to get the full 
-            error, and on fixing it the error should go away, though a clean may also be required 
+            error, and on fixing it the error should go away, though a clean may also be required -->
           <execution>
             <id>generate-theme</id>
             <phase>process-sources</phase>
@@ -82,7 +82,7 @@
                 <argument>${project.basedir}/src/main/files/icons</argument>
                 <argument>-warDir</argument>
                 <argument>${project.build.directory}/war</argument>
-                 Comment out slicedDisabled to disable 
+                <!-- Comment out slicedDisabled to disable -->
                 <argument>-slicedDisabled</argument>
                 <argument>false</argument>
                 <argument>-sourcesOnly</argument>
@@ -92,14 +92,14 @@
                 <argument>${project.basedir}/src/main/resources/tritium.theme</argument>
               </arguments>
               <systemProperties>
-                 PhantomBin is installed and set with the phantomjs-maven-plugin 
+                <!-- PhantomBin is installed and set with the phantomjs-maven-plugin -->
                 <systemProperty>
                   <key>phantomBin</key>
                   <value>${phantomjs.binary}</value>
                 </systemProperty>
               </systemProperties>
               <includePluginDependencies>true</includePluginDependencies>
-              Ignore themebuilder thread exception
+              <!-- Ignore themebuilder thread exception -->
               <cleanupDaemonThreads>false</cleanupDaemonThreads>
             </configuration>
           </execution>
@@ -110,11 +110,11 @@
             <artifactId>gxt-themebuilder</artifactId>
             <version>${gxt.version}</version>
           </dependency>
-          <dependency>
+          <!-- <dependency>
             <groupId>org.codehaus.groovy</groupId>
             <artifactId>groovy-all</artifactId>
             <version>2.4.6</version>
-          </dependency>
+          </dependency> -->
         </dependencies>
       </plugin> -->
 
