@@ -95,7 +95,7 @@
                 <!-- PhantomBin is installed and set with the phantomjs-maven-plugin -->
                 <systemProperty>
                   <key>phantomBin</key>
-                  <value>${phantomjs.binary}</value>
+<!--                  <value>${phantomjs.binary}</value>-->
                 </systemProperty>
               </systemProperties>
               <includePluginDependencies>true</includePluginDependencies>
@@ -105,10 +105,15 @@
           </execution>
         </executions>
         <dependencies>
+<!--          <dependency>-->
+<!--            <groupId>com.sencha.gxt</groupId>-->
+<!--            <artifactId>gxt-themebuilder</artifactId>-->
+<!--            <version>${gxt.version}</version>-->
+<!--          </dependency>-->
           <dependency>
             <groupId>com.sencha.gxt</groupId>
             <artifactId>gxt-themebuilder</artifactId>
-            <version>${gxt.version}</version>
+            <version>4.2.0-SNAPSHOT</version>
           </dependency>
         </dependencies>
       </plugin>
@@ -244,10 +249,15 @@
   </build>
 
   <dependencies>
+<!--    <dependency>-->
+<!--      <groupId>com.sencha.gxt</groupId>-->
+<!--      <artifactId>gxt-themebuilder</artifactId>-->
+<!--      <version>${gxt.version}</version>-->
+<!--    </dependency>-->
     <dependency>
       <groupId>com.sencha.gxt</groupId>
       <artifactId>gxt-themebuilder</artifactId>
-      <version>${gxt.version}</version>
+      <version>4.2.0-SNAPSHOT</version>
     </dependency>
   </dependencies>
 
