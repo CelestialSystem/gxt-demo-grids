@@ -249,15 +249,10 @@
   </build>
 
   <dependencies>
-<!--    <dependency>-->
-<!--      <groupId>com.sencha.gxt</groupId>-->
-<!--      <artifactId>gxt-themebuilder</artifactId>-->
-<!--      <version>${gxt.version}</version>-->
-<!--    </dependency>-->
     <dependency>
       <groupId>com.sencha.gxt</groupId>
       <artifactId>gxt-themebuilder</artifactId>
-      <version>4.2.0-SNAPSHOT</version>
+      <version>${gxt.version}</version>
     </dependency>
   </dependencies>
 

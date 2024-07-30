@@ -64,26 +64,27 @@
       <!-- 'mvn gwt:compile' - compiles gwt -->
       <!-- 'mvn gwt:test' or 'mvn integration-test' - runs the gwt tests (*GwtTest.java), (run a suite its faster) -->
       <plugin>
-        <groupId>org.codehaus.mojo</groupId>
+        <groupId>net.ltgt.gwt.maven</groupId>
         <artifactId>gwt-maven-plugin</artifactId>
         <version>${gwt.maven.version}</version>
         <configuration>
-          <strict>true</strict>
+<!--          <strict>true</strict>-->
 
-          <testTimeOut>180</testTimeOut>
-          <includes>**/*GwtTestSuite.java</includes>
-          <excludes>**/*GwtTest.java</excludes>
-          <mode>htmlunit</mode>
+<!--          <testTimeOut>180</testTimeOut>-->
+<!--          <includes>**/*GwtTestSuite.java</includes>-->
+<!--          <excludes>**/*GwtTest.java</excludes>-->
+<!--          <mode>htmlunit</mode>-->
 
-          <extraJvmArgs>-Xmx2g -XX:MaxPermSize=256M</extraJvmArgs>
-          <logLevel>INFO</logLevel>
-          <style>${gwt.style}</style>
+<!--          <extraJvmArgs>-Xmx2g -XX:MaxPermSize=256M</extraJvmArgs>-->
+<!--          <logLevel>INFO</logLevel>-->
+<!--          <style>${gwt.style}</style>-->
 
-          <copyWebapp>true</copyWebapp>
-          <hostedWebapp>${webappDirectory}</hostedWebapp>
+<!--          <copyWebapp>true</copyWebapp>-->
+<!--          <hostedWebapp>${webappDirectory}</hostedWebapp>-->
 
-          <runTarget>GxtDemoGridsProject.html</runTarget>
-          <module>com.sencha.gxt.demo.GxtDemoGridsProject</module>
+<!--          <runTarget>GxtDemoGridsProject.html</runTarget>-->
+
+          <moduleName>com.sencha.gxt.demo.GxtDemoGridsProject</moduleName>
         </configuration>
         <executions>
           <execution>
@@ -130,16 +131,10 @@
       <artifactId>gxt</artifactId>
       <version>${gxt.version}</version>
     </dependency>
-<!--    <dependency>-->
-<!--      <groupId>com.sencha.gxt</groupId>-->
-<!--      <artifactId>gxt-chart</artifactId>-->
-<!--      <version>${gxt.version}</version>-->
-<!--    </dependency>-->
-    <!-- https://sencha.myget.org/F/gxt-sandbox/maven/com.sencha.gxt/gxt-chart/4.2.0/gxt-chart-4.2.0.pom -->
     <dependency>
       <groupId>com.sencha.gxt</groupId>
       <artifactId>gxt-chart</artifactId>
-      <version>4.2.0-SNAPSHOT</version>
+      <version>${gxt.version}</version>
     </dependency>
 
 
